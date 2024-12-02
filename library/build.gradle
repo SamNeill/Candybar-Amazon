@@ -16,41 +16,27 @@
  * limitations under the License.
  */
 
-plugins {
-    id 'com.android.library'
-    id 'maven-publish'
-}
-
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'com.github.candybar.amazon'
-            artifactId = 'library'
-            version = rootProject.ext.VersionName
-            
-            afterEvaluate {
-                from components.debug
-            }
-        }
-    }
-}
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
-    compileSdk 35
-
     namespace 'candybar.lib'
+    compileSdk rootProject.ext.CompileSdk
 
     defaultConfig {
         minSdkVersion rootProject.ext.MinSdk
-        targetSdkVersion 35
-        vectorDrawables.useSupportLibrary true
+        targetSdkVersion rootProject.ext.TargetSdk
+        versionCode rootProject.ext.VersionCode
+        versionName rootProject.ext.VersionName
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
         buildConfigField 'String', 'VERSION_NAME', "\"${rootProject.ext.VersionName}\""
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            consumerProguardFiles 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 
@@ -59,21 +45,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    packagingOptions {
-        resources {
-            excludes += ['META-INF/NOTICE', 'META-INF/LICENSE']
-        }
-    }
-
-    publishing {
-        singleVariant('debug') {
-            withSourcesJar()
-            withJavadocJar()
-        }
-    }
-
     lint {
         abortOnError false
+        checkReleaseBuilds false
         disable 'MissingTranslation'
     }
 
@@ -99,6 +73,27 @@ afterEvaluate {
                 groupId = 'com.github.SamNeill'
                 artifactId = 'candybar'
                 version = '3.20.3'
+
+                // Publish the release aar artifact
+                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+
+                pom {
+                    name = 'Candybar Library'
+                    description = 'Android Icon Pack Dashboard Library'
+                    url = 'https://github.com/SamNeill/Candybar-Amazon'
+                    licenses {
+                        license {
+                            name = 'Apache License 2.0'
+                            url = 'https://www.apache.org/licenses/LICENSE-2.0'
+                        }
+                    }
+                    developers {
+                        developer {
+                            id = 'samneill'
+                            name = 'Sam Neill'
+                        }
+                    }
+                }
             }
         }
     }

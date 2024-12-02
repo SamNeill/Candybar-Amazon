@@ -36,13 +36,13 @@ publishing {
 }
 
 android {
-    compileSdk 34
+    compileSdk 35
 
     namespace 'candybar.lib'
 
     defaultConfig {
         minSdkVersion rootProject.ext.MinSdk
-        targetSdkVersion 34
+        targetSdkVersion 35
         vectorDrawables.useSupportLibrary true
         buildConfigField 'String', 'VERSION_NAME', "\"${rootProject.ext.VersionName}\""
     }
@@ -137,9 +137,8 @@ dependencies {
     implementation 'com.github.danimahardhika:DrawMe:4a672e78fc'
 
     // Amazon IAP SDK
-    if (project.file('libs/amazon-appstore-sdk.jar').exists()) {
-        implementation fileTree(dir: 'libs', include: ['amazon-appstore-sdk.jar'])
-    }
+    implementation files('libs/amazon-appstore-sdk.jar')
+
     // Add Muzei dependency
     implementation "com.google.android.apps.muzei:muzei-api:3.4.1"
 }

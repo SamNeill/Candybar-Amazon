@@ -136,7 +136,8 @@ dependencies {
     implementation 'com.github.danimahardhika.android-helpers:permission:0.1.0'
     implementation 'com.github.danimahardhika:DrawMe:4a672e78fc'
 
-    implementation 'com.amazon.android:in-app-purchasing:3.0.4'
+    // Amazon IAP SDK
+    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.4'
 
     // Add Muzei dependency
     implementation "com.google.android.apps.muzei:muzei-api:3.4.1"

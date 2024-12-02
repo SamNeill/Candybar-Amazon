@@ -90,6 +90,20 @@ android {
     }
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.SamNeill'
+                artifactId = 'candybar'
+                version = '3.20.3'
+            }
+        }
+    }
+}
+
 dependencies {
     implementation project(':extLibs:PreLollipopTransitions')
 

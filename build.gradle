@@ -17,6 +17,7 @@ allprojects {
         maven { url 'https://maven.google.com' }
         maven { url 'https://developer.huawei.com/repo' }
         maven { url 'https://raw.githubusercontent.com/amzn/amazon-pay-sdk-java/maven' }
+        maven { url 'https://maven.amazon.com/repository/amazon-sdk-maven' }
     }
 
     configurations.all {

@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'key0'
+            keyPassword 'candybar'
+            storeFile file('candybar.jks')
+            storePassword 'candybar'
+
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    compileSdk rootProject.ext.CompileSdk
+
+    namespace 'com.candybar.dev'
+
+    defaultConfig {
+        applicationId 'com.candybar.dev'
+        minSdkVersion rootProject.ext.MinSdk
+        targetSdkVersion rootProject.ext.TargetSdk
+        versionCode rootProject.ext.VersionCode * 10 + 0
+        versionName rootProject.ext.VersionName
+
+        // This code loads the license key from `local.properties` file
+        // and saves it as build config field named "LICENSE_KEY"
+        String licenseKey = ''
+        Properties props = new Properties()
+        File propFile = rootProject.file('local.properties')
+        if (propFile.exists()) {
+            props.load(propFile.newDataInputStream())
+            licenseKey = props.get('license_key', '')
+        }
+        buildConfigField 'String', 'LICENSE_KEY', "\"$licenseKey\""
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    lint {
+        abortOnError false
+    }
+}
+
+configurations.all {
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+}
+
+dependencies {
+    implementation project(':library')
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+}

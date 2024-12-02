@@ -136,6 +136,8 @@ dependencies {
     implementation 'com.github.danimahardhika.android-helpers:permission:0.1.0'
     implementation 'com.github.danimahardhika:DrawMe:4a672e78fc'
 
+    implementation 'com.amazon.android:in-app-purchasing:3.0.4'
+
     // Amazon IAP SDK
     implementation files('libs/amazon-appstore-sdk.jar')
 

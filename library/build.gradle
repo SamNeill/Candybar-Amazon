@@ -138,9 +138,6 @@ dependencies {
 
     implementation 'com.amazon.android:in-app-purchasing:3.0.4'
 
-    // Amazon IAP SDK
-    implementation files('libs/amazon-appstore-sdk.jar')
-
     // Add Muzei dependency
     implementation "com.google.android.apps.muzei:muzei-api:3.4.1"
 }

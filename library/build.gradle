@@ -19,8 +19,23 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.candybar.amazon'
+            artifactId = 'library'
+            version = rootProject.ext.VersionName
+            
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}
+
 android {
     namespace 'candybar.lib'
+
     compileSdk rootProject.ext.CompileSdk
 
     defaultConfig {
@@ -36,13 +51,20 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            consumerProguardFiles 'proguard-rules.pro'
         }
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
     }
 
     lint {
@@ -73,9 +95,6 @@ afterEvaluate {
                 groupId = 'com.github.SamNeill'
                 artifactId = 'candybar'
                 version = '3.20.3'
-
-                // Publish the release aar artifact
-                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
 
                 pom {
                     name = 'Candybar Library'

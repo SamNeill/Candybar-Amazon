@@ -156,8 +156,7 @@ dependencies {
     implementation 'com.github.danimahardhika:DrawMe:4a672e78fc'
 
     // Amazon In-App Purchasing SDK
-    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.4'
-    implementation 'com.amazon.android:in-app-purchasing:3.0.4'
+    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.5'
 
     // Add Muzei dependency
     implementation "com.google.android.apps.muzei:muzei-api:3.4.1"

@@ -69,6 +69,9 @@ configurations.all {
 }
 
 dependencies {
-    implementation project(':library')
+    // CandyBar main library
+    implementation 'com.github.SamNeill.Candybar-Amazon:candybar:v3.20.3-amazon'
+    // PreLollipopTransitions module
+    implementation 'com.github.SamNeill.Candybar-Amazon:PreLollipopTransitions:v3.20.3-amazon'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
 }

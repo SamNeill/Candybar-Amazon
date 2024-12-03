@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy_title">Privacy Policy</string>
+    <string name="about_terms_and_conditions_title">Terms and Conditions</string>
+    <string name="navigation_view_presets">Presets</string>
+    
+    <!-- Add formatted="false" to fix string formatting issues -->
+    <string name="apply_launcher_incompatible" formatted="false">%s is not compatible with this icon pack.</string>
+    <string name="apply_launcher_incompatible_depending_on_version" formatted="false">%s is not compatible with this icon pack, depending on the version.</string>
+    <string name="apply_manual" formatted="false">%s does not support direct apply, you need to apply the icon pack manually.</string>
+</resources>

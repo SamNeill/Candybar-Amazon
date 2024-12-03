@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">CandyBar Material Dashboard</string>
+    <string name="splash_screen_title">CandyBar Dashboard Material Dashboard</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">Home</string>
     <string name="navigation_view_apply">Toepassen</string>
@@ -303,7 +303,7 @@
     <string name="crash_report_message">Helaas is %s gecrasht. Stuur hieronder een rapport om de ontwikkelaar te helpen het probleem op te lossen.</string>
     <string name="crash_report_send">Rapport versturen</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
     <string name="about_dashboard_dev">CandyBar is een open source icoonpakket-dashboard gelicenceerd onder Apache Licentie 2.0 voor Android.
 Beschikbaar op GitHub en gratis te gebruiken, ontwikkeld door Dani Mahardhika.</string>
     <string name="about_open_source_licenses">Open Source-licenties</string>

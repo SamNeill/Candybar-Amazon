@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">CandyBar マテリアルダッシュボード</string>
+    <string name="splash_screen_title">CandyBar Dashboard マテリアルダッシュボード</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">ホーム</string>
     <string name="navigation_view_apply">適用</string>
@@ -311,7 +311,7 @@ Google Playストアを開きダウンロードしてインストールします
     <string name="crash_report_message">残念なことに、%sがクラッシュしました。以下の「レポートを送信」を選択して、開発者が問題を修正できるようにしてください。</string>
     <string name="crash_report_send">レポートを送信</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
     <string name="about_dashboard_dev">CandyBarは、Dani Mahardhikaによって開発され、GitHubで入手して自由に利用することのできる、Apache License 2.0に基づきライセンスされたAndroid向けオープンソースアイコンパックダッシュボードです。</string>
     <string name="about_open_source_licenses">オープンソースライセンス</string>
     <string name="about_dashboard_contributors">CandyBarの貢献者</string>

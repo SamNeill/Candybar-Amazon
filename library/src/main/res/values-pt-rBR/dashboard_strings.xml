@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">Painel CandyBar Material</string>
+    <string name="splash_screen_title">Painel CandyBar Dashboard Material</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">Início</string>
     <string name="navigation_view_apply">Aplicar</string>
@@ -231,7 +231,7 @@
     <string name="crash_report">Relatório de falha</string>
     <string name="crash_report_send">Enviar Relatório</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
     <string name="about_dashboard_contributors">Contribuidores CandyBar</string>
     <string name="about_dashboard_translator">Tradutor CandyBar</string>
     <!-- DrawerToggle -->

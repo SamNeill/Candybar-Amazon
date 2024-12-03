@@ -180,7 +180,7 @@
     <string name="crash_report">오류 보고서</string>
     <string name="crash_report_send">보고서 전송</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard_contributors">CandyBar 기여자</string>
+    <string name="about_dashboard_contributors">CandyBar Dashboard 기여자</string>
     <string name="about_dashboard_translator">CandyBar 번역자</string>
     <!-- DrawerToggle -->
     <string name="txt_open">열기</string>

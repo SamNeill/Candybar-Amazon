@@ -59,7 +59,7 @@
         CONFIG: HOME
     -->
     <!-- Home title. This will be shown in the home page -->
-    <string name="home_title">CandyBar</string>
+    <string name="home_title">CandyBar Dashboard</string>
 
     <!-- Home image
         If you want to use an image from url, just put the url here
@@ -128,7 +128,7 @@
 
     <!-- Navigation view header text
         Leave empty if you don't want to show any text -->
-    <string name="navigation_view_header_title">CandyBar</string>
+    <string name="navigation_view_header_title">CandyBar Dashboard</string>
 
 
     <!--
@@ -299,7 +299,7 @@
     <string name="about_profile_image">https://lh3.googleusercontent.com/-KBI2HdgNtN0/AAAAAAAAAAI/AAAAAAAABpc/icnuAgrjOT4/s256-p-rw-no/photo.jpg</string>
 
     <!-- The BIG text which is shown above the description and below the about profile image -->
-    <string name="about_title">CandyBar Material Dashboard</string>
+    <string name="about_title">CandyBar Dashboard Material Dashboard</string>
 
     <!-- The description which is shown below the about title.
         Put your markup/text inside of `<![CDATA[` and `]]>`
@@ -348,7 +348,7 @@
     <!-- Closes app if the app is installed outside of Play store -->
     <bool name="playstore_check_enabled">false</bool>
 
-    <!-- Link to CandyBar config JSON
+    <!-- Link to CandyBar Dashboard config JSON
         You can use this to control your dashboard remotely.
         Learn more at https://github.com/zixpo/candybar-sample/wiki/Setting-up-Config-JSON -->
     <string name="config_json"></string>

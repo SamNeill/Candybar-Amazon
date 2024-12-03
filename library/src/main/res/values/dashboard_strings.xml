@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">CandyBar Material Dashboard</string>
+    <string name="splash_screen_title">CandyBar Dashboard Material Dashboard</string>
 
     <!-- Navigation View -->
     <string name="navigation_view_home">Home</string>
@@ -392,5 +392,5 @@
     <!-- Version -->
     <string name="version">Version</string>
 
-    <string name="home_kustom_desc">Kustom presets for %s</string>
+    <string name="home_kustom_desc">Matching Weathers komponents for %s</string>
 </resources>

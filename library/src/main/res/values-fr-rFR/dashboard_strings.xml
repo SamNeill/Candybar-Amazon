@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">Tableau de bord CandyBar</string>
+    <string name="splash_screen_title">Tableau de bord CandyBar Dashboard</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">Accueil</string>
     <string name="navigation_view_apply">Appliquer</string>
@@ -313,7 +313,7 @@ Ouvrez les Paramètres et choisissez \"Restaurer les achats\" pour le restaurer.
     <string name="crash_report_message">Malheureusement, %s a cessé de fonctionner. Envoyez le rapport ci-dessous pour aider le développeur à résoudre le problème.</string>
     <string name="crash_report_send">Envoyer le Rapport</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
     <string name="about_dashboard_dev">CandyBar est un tableau de bord de pack d\'icônes open source pour Android publié sous licence Apache 2.0 sur Github.
         Il est libre d\'utilisation et développé par Dani Mahardhika.</string>
     <string name="about_open_source_licenses">Licences Open Source</string>

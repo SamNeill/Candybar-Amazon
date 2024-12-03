@@ -13,8 +13,8 @@
         android:id="@+id/kustom_icon"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginRight="@dimen/content_padding"
-        android:layout_marginEnd="@dimen/content_padding" />
+        android:layout_marginRight="@dimen/content_margin"
+        android:layout_marginEnd="@dimen/content_margin" />
 
     <TextView
         android:id="@+id/name"

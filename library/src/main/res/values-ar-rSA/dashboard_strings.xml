@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">لوحة معلومات CandyBar بتصميم الماتيريال</string>
+    <string name="splash_screen_title">لوحة معلومات CandyBar Dashboard بتصميم الماتيريال</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">الرئيسية</string>
     <string name="navigation_view_apply">تطبيق</string>
@@ -305,7 +305,7 @@
     <string name="crash_report_message">للأسف، تحطم %s. اختر إرسال التقرير أدناه لمساعدة المطور على حل المشكلة.</string>
     <string name="crash_report_send">إرسال البلاغ</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
     <string name="about_dashboard_dev">كاندي بار هي لوحة تحكم للرموز مفتوح المصدر مرخصة بموجب رخصة أباتشي 2. ل
         أندرويد متوفر على GitHub ومجاني للاستخدام، تم تطويره من قبل داني ماهارديكا.</string>
     <string name="about_open_source_licenses">تراخيص مفتوحة المصدر</string>

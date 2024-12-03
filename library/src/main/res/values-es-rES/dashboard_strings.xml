@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">Panel de control Material de CandyBar</string>
+    <string name="splash_screen_title">Panel de control Material de CandyBar Dashboard</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">Inicio</string>
     <string name="navigation_view_apply">Establecer</string>
@@ -306,7 +306,7 @@ Abre \"Ajustes\" y escoge \"Restaurar las Compras\" para restaurarlo.</string>
     <string name="crash_report_message">Desafortunadamente, %s ha fallado. Elige Enviar Informe para ayudar al desarrollador a reparar el problema.</string>
     <string name="crash_report_send">Enviar Informe</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
     <string name="about_dashboard_dev">CandyBar es un panel de control de paquetes de iconos de código abierto bajo la licencia 
         Apache 2.0 para Android, disponible en GitHub y libre de usar. Desarrollado por Dani 
         Mahardhika.</string>

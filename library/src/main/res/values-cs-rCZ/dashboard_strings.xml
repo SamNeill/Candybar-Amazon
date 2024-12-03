@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="splash_screen_title">CandyBar Material Dashboard</string>
+    <string name="splash_screen_title">CandyBar Dashboard Material Dashboard</string>
     <!-- Navigation View -->
     <string name="navigation_view_home">Přehled</string>
     <string name="navigation_view_apply">Použít</string>
@@ -309,11 +309,11 @@
     <string name="crash_report_message">Bohužel %s neodpovídá. Pokud chcete, aby vývojář vyřešil problém, odešlete níže uvedenou zprávu.</string>
     <string name="crash_report_send">Odeslat hlášení</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard">CandyBar</string>
-    <string name="about_dashboard_dev">CandyBar je vyvíjen jako open-source projekt pro Android, který je licencován pod Apache License 2.0. Je k dispozici na GitHub pro volné použití, autor Dani Mahardhika.</string>
+    <string name="about_dashboard">CandyBar Dashboard</string>
+    <string name="about_dashboard_dev">CandyBar Dashboard je vyvíjen jako open-source projekt pro Android, který je licencován pod Apache License 2.0. Je k dispozici na GitHub pro volné použití, autor Dani Mahardhika.</string>
     <string name="about_open_source_licenses">Open-source licence</string>
-    <string name="about_dashboard_contributors">Přispěvatelé CandyBar</string>
-    <string name="about_dashboard_translator">Překladatelé CandyBar</string>
+    <string name="about_dashboard_contributors">Přispěvatelé CandyBar Dashboard</string>
+    <string name="about_dashboard_translator">Překladatelé CandyBar Dashboard</string>
     <!-- DrawerToggle -->
     <string name="txt_open">Otevřít</string>
     <string name="txt_close">Zavřít</string>

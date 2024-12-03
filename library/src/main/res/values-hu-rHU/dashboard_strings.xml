@@ -192,7 +192,7 @@
     <string name="crash_report">Összeomlási jelentés</string>
     <string name="crash_report_send">Jelentés elküldése</string>
     <!-- Please don't modify this, Just Translate -->
-    <string name="about_dashboard_contributors">A CandyBar fejlesztésében részt vesznek</string>
+    <string name="about_dashboard_contributors">A CandyBar Dashboard fejlesztésében részt vesznek</string>
     <string name="about_dashboard_translator">A CandyBar fordítói</string>
     <!-- DrawerToggle -->
     <string name="txt_open">Megnyitás</string>

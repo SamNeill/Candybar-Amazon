@@ -10,8 +10,8 @@
     <bool name="material_you_by_default">true</bool>
 
     <!-- CONFIG: MUZEI -->
-    <string name="muzei_art_source_name">CandyBar</string>
-    <string name="muzei_art_source_desc">Pleasing wallpapers from CandyBar</string>
+    <string name="muzei_art_source_name">CandyBar Dashboard</string>
+    <string name="muzei_art_source_desc">Pleasing wallpapers from CandyBar Dashboard</string>
     <color name="muzei_color">#0082B4</color>
 
     <!-- CONFIG: KUSTOM -->
@@ -21,12 +21,12 @@
     <bool name="enable_kustom">true</bool>
 
     <!-- CONFIG: HOME -->
-    <string name="home_title">CandyBar</string>
+    <string name="home_title">CandyBar Dashboard</string>
     <string name="home_image">home_image</string>
     <string name="home_image_style">card_landscape</string>
     <string name="home_description">
         <![CDATA[
-        CandyBar is an <b>Android Icon Pack Dashboard</b>. It has <i>many features</i>. Backed by the <u>community</u>.
+        CandyBar Dashboard is an <b>Android Icon Pack Dashboard</b>. It has <i>many features</i>. Backed by the <u>community</u>.
         Get it from <a href="https://github.com/zixpo/candybar">GitHub</a>.
         ]]>
     </string>
@@ -38,7 +38,7 @@
 
     <!-- CONFIG: NAVIGATION VIEW HEADER -->
     <string name="navigation_view_header">nav_head</string>
-    <string name="navigation_view_header_title">CandyBar</string>
+    <string name="navigation_view_header_title">CandyBar Dashboard</string>
     <bool name="enable_apply">true</bool>
 
     <!-- CONFIG: ICONS -->
@@ -76,10 +76,10 @@
     <!-- CONFIG: ABOUT -->
     <string name="about_image"></string>
     <string name="about_profile_image">about_image</string>
-    <string name="about_title">CandyBar \nMaterial Dashboard</string>
+    <string name="about_title">CandyBar Dashboard</string>
     <string name="about_desc">
         <![CDATA[
-        CandyBar is an <b>Android Icon Pack Dashboard</b>. It has <i>many features</i>. Backed by the <u>community</u>.
+        CandyBar Dashboard is an <b>Android Icon Pack Dashboard</b>. It has <i>many features</i>. Backed by the <u>community</u>.
         Get it from <a href="https://github.com/zixpo/candybar">GitHub</a>.
         ]]>
     </string>

@@ -30,7 +30,7 @@ jobs:
       run: ./gradlew :library:assembleRelease
 
     - name: Generate Sources and Javadoc
-      run: ./gradlew :library:generateReleaseSourcesJar :library:generateReleaseJavadocJar
+      run: ./gradlew :library:sourceReleaseJar :library:javadocReleaseJar
 
     - name: Verify Maven Publication
       run: ./gradlew :library:publishToMavenLocal

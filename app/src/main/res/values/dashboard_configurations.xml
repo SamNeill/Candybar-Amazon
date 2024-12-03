@@ -27,7 +27,7 @@
     <string name="home_description">
         <![CDATA[
         CandyBar Dashboard is an <b>Android Icon Pack Dashboard</b>. It has <i>many features</i>. Backed by the <u>community</u>.
-        Get it from <a href="https://github.com/zixpo/candybar">GitHub</a>.
+        Get it from <a href="https://github.com/SamNeill">GitHub</a>.
         ]]>
     </string>
     <string name="rate_and_review_link">https://play.google.com/store/apps/details?id={{packageName}}</string>
@@ -84,6 +84,8 @@
         ]]>
     </string>
     <string-array name="about_social_links">
+        <item>https://bsky.app/profile/YourProfile</item>
+        <item>https://buymeacoffee.com/yourusername</item>
         <item>https://www.instagram.com/_u/yourusername</item>
         <item>https://twitter.com/</item>
         <item>https://www.behance.net/</item>
@@ -91,8 +93,8 @@
         <item>http://www.yourwebsite.com</item>
         <item>your@email.com</item>
         <item>https://t.me/yourname</item>
-        <item>https://bsky.app/profile/YourProfile</item>
-        <item>https://buymeacoffee.com/yourusername</item>
+
+
     </string-array>
 
 

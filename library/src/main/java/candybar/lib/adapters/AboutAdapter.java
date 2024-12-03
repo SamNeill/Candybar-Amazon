@@ -166,12 +166,13 @@ public class AboutAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             TextView subtitle = itemView.findViewById(R.id.subtitle);
             RecyclerView recyclerView = itemView.findViewById(R.id.recyclerview);
             recyclerView.setItemAnimator(new DefaultItemAnimator());
-            recyclerView.setLayoutManager(new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, true));
+            recyclerView.setLayoutManager(new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, false));
             recyclerView.setHasFixedSize(true);
 
             int topMargin = mContext.getResources().getDimensionPixelSize(R.dimen.content_margin) * 4;
             LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) recyclerView.getLayoutParams();
             params.topMargin = topMargin;
+            params.gravity = Gravity.END;
             recyclerView.setLayoutParams(params);
 
             String[] urls = mContext.getResources().getStringArray(R.array.about_social_links);
@@ -188,7 +189,7 @@ public class AboutAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                     params = (LinearLayout.LayoutParams) recyclerView.getLayoutParams();
                     if (urls.length < 7) {
                         params.width = LinearLayout.LayoutParams.WRAP_CONTENT;
-                        params.gravity = Gravity.CENTER_HORIZONTAL;
+                        params.gravity = Gravity.END;
                         recyclerView.setOverScrollMode(View.OVER_SCROLL_NEVER);
                     }
                     params.topMargin = topMargin;

@@ -29,8 +29,8 @@ jobs:
     - name: Build Release Library
       run: ./gradlew :library:assembleRelease
 
-    - name: Generate Javadoc and Sources
-      run: ./gradlew :library:androidSourcesJar :library:androidJavadocJar
+    - name: Generate Sources and Javadoc
+      run: ./gradlew :library:generateReleaseSourcesJar :library:generateReleaseJavadocJar
 
     - name: Verify Maven Publication
       run: ./gradlew :library:publishToMavenLocal

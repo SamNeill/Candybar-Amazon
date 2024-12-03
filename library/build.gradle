@@ -19,20 +19,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'com.github.candybar.amazon'
-            artifactId = 'library'
-            version = rootProject.ext.VersionName
-            
-            afterEvaluate {
-                from components.release
-            }
-        }
-    }
-}
-
 android {
     namespace 'candybar.lib'
 
@@ -111,6 +97,11 @@ afterEvaluate {
                             id = 'samneill'
                             name = 'Sam Neill'
                         }
+                    }
+                    scm {
+                        connection = 'scm:git:git://github.com/SamNeill/Candybar-Amazon.git'
+                        developerConnection = 'scm:git:ssh://github.com/SamNeill/Candybar-Amazon.git'
+                        url = 'https://github.com/SamNeill/Candybar-Amazon'
                     }
                 }
             }
